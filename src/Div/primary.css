@@ -1,1 +1,94 @@
+.divA {
+    min-height: 10rem;
+    min-width: 10rem;
+    max-height: max-content;
+    max-width: max-content;
+color:white;
+    padding: 1rem;
+    margin: 0.4rem;
 
+    background-color: rgb(73, 73, 108);
+    box-shadow:
+        0rem 0rem 10rem rgb(121, 121, 184),
+        inset 0rem 0rem 10rem rgb(69, 69, 80);
+
+    border-radius: 2rem;
+    border: 0.1rem solid rgb(98, 98, 171);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    gap: 0.5rem;
+}
+.divBgradient {
+     min-height: 10rem;
+    min-width: 10rem;
+    max-height: max-content;
+    max-width: max-content;
+
+    padding: 1rem;
+    margin: 0.4rem;
+
+    background: linear-gradient(
+        135deg,
+        rgb(129, 129, 184) 0%,
+        rgb(103, 103, 142) 30%,
+        rgb(119, 119, 154) 60%,
+        rgb(168, 168, 184) 100%
+    );
+
+    box-shadow:
+        0rem 0rem 10rem rgb(121, 121, 184),
+        inset 0rem 0rem 10rem rgb(69, 69, 80);
+
+    border-radius: 2rem;
+    border: 0.1rem solid rgb(98, 98, 171);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    gap: 0.5rem;
+
+}
+.divCgradientShadow {
+     min-height: 10rem;
+    min-width: 10rem;
+    max-height: max-content;
+    max-width: max-content;
+
+    padding: 1rem;
+    margin: 0.4rem;
+
+    background: linear-gradient(
+        135deg,
+        rgb(129, 129, 184) 0%,
+        rgb(103, 103, 142) 30%,
+        rgb(119, 119, 154) 60%,
+        rgb(168, 168, 184) 100%
+    );
+
+    box-shadow:
+        -1rem -1rem 3rem rgba(160, 160, 255, 0.35),
+         1rem 1rem 3rem rgba(25, 25, 45, 0.55),
+         0rem 0rem 8rem rgba(121, 121, 184, 0.45),
+         inset 0.2rem 0.2rem 1rem rgba(255, 255, 255, 0.12),
+         inset -0.2rem -0.2rem 1rem rgba(0, 0, 0, 0.25);
+
+    border-radius: 2rem;
+    border: 0.1rem solid rgb(98, 98, 171);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    gap: 0.5rem;
+
+}
