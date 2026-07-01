@@ -1,0 +1,9 @@
+hr{
+    box-shadow: 0rem 0rem 2rem rgb(167, 161, 161);
+    height:0.2rem;
+    border:none;
+    background-color: rgb(219, 213, 213);
+    border-radius: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
